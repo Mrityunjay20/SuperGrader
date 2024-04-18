@@ -3,8 +3,8 @@ import { PreHeader } from "../components/PreHeader";
 
 export default function RootLayout(){
 
-    return(<div className=" min-h-screen">
-        <PreHeader />
+    return(<div className=" min-h-screen  bg-[#010100]">
+            <PreHeader />
         <Outlet/>
     </div>)
 }

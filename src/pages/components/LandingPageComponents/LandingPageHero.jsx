@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function LandingHERO() {
   return (
     <>
@@ -18,9 +20,9 @@ export default function LandingHERO() {
              Our cutting-edge AI tool is here to streamline your grading process like never before.
             </p>
             <div className="flex justify-center">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              <NavLink to='/dashboard' className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                 Explore
-              </button>
+              </NavLink>
               
             </div>
           </div>

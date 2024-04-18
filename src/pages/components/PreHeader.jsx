@@ -8,7 +8,7 @@ const Routes = [
   },
   {
     name: "Dashboard",
-    path: "/login",
+    path: "/dashboard",
   },
   {
     name: "About",

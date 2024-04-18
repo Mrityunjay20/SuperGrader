@@ -17,9 +17,17 @@ function App() {
         element:<LandingPage/>
         },
         {
-          path:'/login',
+          path:'/Dashboard',
           element:<LoginPage/>,
-        }
+        },
+        {
+          path:'/about',
+          element:<h1>This is about page</h1>
+        },
+        {
+          path:'/contact',
+          element:<h1>This is contact us page</h1>
+        },
       ]
     },
     
